@@ -1,0 +1,47 @@
+{
+  "name": "bbblog",
+  "version": "0.0.8",
+  "description": "My personal blog repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "blog": "node blog-post-builder.js",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "blog",
+    "itsablog",
+    "personal",
+    "blog"
+  ],
+  "devDependencies": {
+    "autoprefixer": "6.7.7",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.7",
+    "eslint": "4.7.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-react": "7.3.0",
+    "file-loader": "1.1.5",
+    "itsablog": "1.2.2",
+    "json-loader": "0.5.7",
+    "node-sass": "4.5.3",
+    "object-path": "0.11.4",
+    "react-hot-loader": "3.0.0-beta.7",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.19.0",
+    "url-loader": "0.6.2"
+  },
+  "dependencies": {
+    "bootstrap-sass": "3.3.7",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-router-dom": "4.2.2",
+    "webpack": "2.4.1"
+  },
+  "author": "Brian Brennan",
+  "license": "ISC"
+}

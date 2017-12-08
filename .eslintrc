@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "max-len": [1, 120, 2, {"ignoreComments": true}], //120 character max line length
+    "react/prop-types": 0,
+    "no-console": 0,
+    "class-methods-use-this": "off"
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "env": { //allows for browser globals, like document, to be used and have it be ok
+    "browser": true,
+    "node": true
+  }
+}

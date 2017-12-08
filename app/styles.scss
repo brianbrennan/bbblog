@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i;family=Libre+Baskerville');
+
+/*-------------*\
+	Variables
+\*-------------*/
+
+$black: black;
+$white: white;
+$grey: grey;
+$lightGrey: lightgrey;
+
+$smFontSize: 11px;
+$regFontSize: 19px;
+$lgFontSize: 32px;
+$xlFontSize: 48px;
+
+/*-----------------*\
+	Global Styles
+\*-----------------*/
+
+body {
+	font-family: Georgia, serif;
+	line-height: 1.7;
+	font-size: $regFontSize;
+	color: $black;
+}
+
+h1, h2, h3, h4 {
+	font-family: Open Sans, sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: $black;
+}
+
+p {
+	margin: 30px 0;
+}
+
+h1 + p, h2 + p, h3 + p {
+	margin: 15px 0 30px 0;
+}
+
+blockquote {
+	border-left: 2px solid $lightGrey;
+	padding-left: 30px;
+	font-size: 30px;
+	font-style: italic;
+}
