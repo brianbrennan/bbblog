@@ -1,7 +1,8 @@
 <meta>
     {
         "title": "A Look into The Speed of Prototypes vs. Closures",
-        "tags": ["javascript", "functional programming"]
+        "tags": ["javascript", "functional programming"],
+            "publishDate": "2015-09-09T00:00:00-05:00"
     }
 </meta>
 

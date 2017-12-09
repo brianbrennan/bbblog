@@ -1,7 +1,8 @@
 <meta>
 {
     "title": "What is Good Enough to Get Out The Door",
-    "tags": ["professional development", "agile"]
+    "tags": ["professional development", "agile"],
+    "publishDate": "2017-12-05T00:00:00-05:00"
 }
 </meta>
 

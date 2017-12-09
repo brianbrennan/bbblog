@@ -1,7 +1,8 @@
 <meta>
     {
         "tags": ["writing", "blog", "javascript", "itsablog"],
-        "title": "The Thoughts Behind ItsABlog"
+        "title": "The Thoughts Behind ItsABlog",
+        "publishDate": "2017-12-02T00:00:00-05:00"
     }
 </meta>
 # The Thoughts Behind ItsABlog

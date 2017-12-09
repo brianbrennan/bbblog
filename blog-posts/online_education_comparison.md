@@ -1,7 +1,8 @@
 <meta>
 {
     "title": "Online Education Comparison",
-    "tags": ["professional development", "learning web development"]
+    "tags": ["professional development", "learning web development"],
+    "publishDate": "2015-11-30T00:00:00-05:00"
 }
 </meta>
 

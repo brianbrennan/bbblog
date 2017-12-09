@@ -1,7 +1,8 @@
 <meta>
 {
     "tags": ["SVG"],
-    "title": "A Problem with SVGs and How to Avoid It"
+    "title": "A Problem with SVGs and How to Avoid It",
+    "publishDate": "2017-03-18T00:00:00-05:00"
 }
 </meta>
 

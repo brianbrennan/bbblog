@@ -6,9 +6,22 @@ import blogPosts from './../blog.json';
 
 export default class BlogHome extends React.Component {
     render() {
-        let blogPostSnippetElements = Object.keys(blogPosts).map((blogPostKey) => {
-            return this.buildBlogPostSnippet(blogPostKey, blogPosts[blogPostKey]);
-        });
+        let blogPostSnippetElements = Object.keys(blogPosts)
+            .sort((blogPostTitleA, blogPostTitleB) => {
+                let dateA = new Date(blogPosts[blogPostTitleA].meta.publishDate).getMilliseconds(),
+                    dateB = new Date(blogPosts[blogPostTitleB].meta.publishDate).getMilliseconds();
+
+                if(dateA < dateB) {
+                    return -1;
+                } else if (dateA > dateB) {
+                    return 1;
+                }
+
+                return 0;
+            })
+            .map((blogPostKey) => {
+                return this.buildBlogPostSnippet(blogPostKey, blogPosts[blogPostKey]);
+            });
 
         return (
             <section className="blog-home">

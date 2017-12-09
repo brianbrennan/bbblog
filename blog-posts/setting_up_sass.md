@@ -1,7 +1,8 @@
 <meta>
 {
     "title": "How to Set Up Sass for Your Workflow",
-    "tags": ["professional development", "sass", "web development", "front end development"]
+    "tags": ["professional development", "sass", "web development", "front end development"],
+    "publishDate": "2015-10-18T00:00:00-05:00"
 }
 </meta>
 

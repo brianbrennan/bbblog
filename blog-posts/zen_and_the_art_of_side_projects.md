@@ -1,7 +1,8 @@
 <meta>
     {
         "tags": ["professional development", "side project"],
-        "title": "Zen and the Art Of Side Projects"
+        "title": "Zen and the Art Of Side Projects",
+        "publishDate": "2017-12-04T00:00:00-05:00"
     }
 </meta>
 
