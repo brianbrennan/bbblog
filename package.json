@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "blog": "node blog-post-builder.js",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [
     "blog",
