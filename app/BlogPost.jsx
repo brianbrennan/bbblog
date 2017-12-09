@@ -10,9 +10,14 @@ export default class BlogPost extends React.Component {
 
     render() {
         return (
-            <article className="content" dangerouslySetInnerHTML={{__html: this.blogPost.content}}>
+            <div className="container">
+                <div className="row">
+                    <article className="content col-lg-8 offset-lg-2"
+                             dangerouslySetInnerHTML={{__html: this.blogPost.content}}>
 
-            </article>
+                    </article>
+                </div>
+            </div>
         );
     }
 }
