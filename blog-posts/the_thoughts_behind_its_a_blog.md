@@ -5,7 +5,6 @@
         "publishDate": "2017-12-02T00:00:00-05:00"
     }
 </meta>
-# The Thoughts Behind ItsABlog
 
 I've always loved the idea of having a blog. If you're a developer like me, you probably spend a good portion of your day reading other people's thoughts, opinions, articles, and code snippets on blogs all over the web. The reason I got into writing code in the first place was trying to do what someone else could do. "Look at this guy, he made a cool navigation menu". "Hey, this guy built out his own node server". Building things and comparing your work to that of others is something that is just going to happen in life, and especially in this industry. I love this. It makes me want to do more stuff. Often, it makes me learn that I want to do things that I had no idea about until I saw someone else do it.
 

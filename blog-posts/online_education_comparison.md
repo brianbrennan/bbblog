@@ -6,8 +6,6 @@
 }
 </meta>
 
-# Online Education Comparison
-
 I think that every web developer should be subscribed to some kind of online education site, so that they can regularly hone their skills and keep up to date on all the newest technologies out there. And while something can be said for learning on your own, through shotgunned google searches (since let’s be honest, that’s our unwritten job description), I feel having more structured tools to learning about development is essential. Even those who claim to have mastered their workflow (because they’ve gotten very good at finding exactly what to google) still know that their workflow can change on a dime. New technologies come out every month, and while most are a flash in the pan, others stick around. With new technologies comes a lot of learning to do. There is no shame in having a helping hand as far as learning the ropes on anything new. Every developer should feel comfortable enough with feeling uncomfortable with new technology. They should be able to learn new tools quickly, and online education platforms are a great tool for doing just that. I feel that video tutorials are by far the best way to learn and keep up with new entries in the grand catalog of development tools. So with all that being said, which education platform should we use?
 
 I’m going to give two answers to that question. The first is Treehouse. The second is Lynda. These two online education sites have extensive libraries for development, are not particularly expensive, and are overall are just fantastic for learning on your own. But these two tools are vastly different from each other, and while they are both my favorites, they do not necessarily fall into the same levels of experience. So let’s start with Treehouse.

@@ -6,8 +6,6 @@
     }
 </meta>
 
-# A Look into The Speed of Prototypes vs. Closures
-
 Prototype vs closure is an extremely interesting look at Object Oriented Javascript. I'd describe myself as an intermediate level javascript developer, and have been trying to learn as much as I can with this lovely language. I quickly found myself wanting to use Object Oriented Programming as efficiently as possible for my web sites. Though for small sites, the impact of using extremely DRY and abstracted code is probably marginal, for larger applications its plain to see that having your code not be repetitive is a saver of time, amongst other things like bandwidth usage, memory usage, and all the other goodies that should be optimized. While brushing up on my OOP and applying it to JavaScript, I ran accross the interesting difference in instantiating objects in JS: Prototypes. I'm sure many of the developer reading this are thinking what a noob I must be for just learning this concept, but hey, I've never needed it before. So I wanted to learn why it was such a big deal. What was the difference between prototypes and closures in JS as far as speed, memory usage, and other important factors. As it turns out, this is a very commonly asked question on StackOverflow, but I wanted to see for myself what the big hubub was about. So I decided to concoct a test between these two approaches to creating objects. "A simple test on a large scale should do the trick", I thought. So I very quickly jotted down a sketch of a dice rolling script that would take a lot of dice objects, put them into an array, and see the differences between the two. First up, is creating the dice objects in both their flavors.
 
 ## Writing the Code

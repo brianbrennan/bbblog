@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import objectPath from 'object-path';
+import moment from 'moment';
 
 import blogPosts from './../blog.json';
 
@@ -8,12 +9,12 @@ export default class BlogHome extends React.Component {
     render() {
         let blogPostSnippetElements = Object.keys(blogPosts)
             .sort((blogPostTitleA, blogPostTitleB) => {
-                let dateA = new Date(blogPosts[blogPostTitleA].meta.publishDate).getMilliseconds(),
-                    dateB = new Date(blogPosts[blogPostTitleB].meta.publishDate).getMilliseconds();
+                let dateA = new Date(blogPosts[blogPostTitleA].meta.publishDate).getTime(),
+                    dateB = new Date(blogPosts[blogPostTitleB].meta.publishDate).getTime();
 
-                if(dateA < dateB) {
+                if(dateA > dateB) {
                     return -1;
-                } else if (dateA > dateB) {
+                } else if (dateA < dateB) {
                     return 1;
                 }
 
@@ -24,8 +25,10 @@ export default class BlogHome extends React.Component {
             });
 
         return (
-            <section className="blog-home">
-                {blogPostSnippetElements}
+            <section className="blog-home container">
+                <section className="row">
+                    {blogPostSnippetElements}
+                </section>
             </section>
         );
     }
@@ -35,11 +38,12 @@ export default class BlogHome extends React.Component {
 
         if(shouldDisplayPost) {
             return (
-                <Link key={blogPostKey} to={'/' + blogPostKey}>
-                    <article >
-                        <h3>{blogPost.meta.title}</h3>
-                    </article>
-                </Link>
+                    <Link key={blogPostKey} to={'/' + blogPostKey} className="blog-post-snippet">
+                        <article>
+                            <h3>{blogPost.meta.title}</h3>
+                            <h4 className="publish-date">{moment(blogPost.meta.publishDate).fromNow()}</h4>
+                        </article>
+                    </Link>
             );
         } else {
             return false;

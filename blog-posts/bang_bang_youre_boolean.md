@@ -1,7 +1,7 @@
 <meta>
 {
     "tags": ["Javascript", "js", "es2015"],
-    "title": "Bang Bang, You're Boolean",
+    "title": "Boolean evalulation in non-strictly typed JavaScript",
     "publishDate": "2017-04-22T00:00:00-05:00"
 }
 </meta>

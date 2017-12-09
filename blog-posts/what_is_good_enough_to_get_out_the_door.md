@@ -6,8 +6,6 @@
 }
 </meta>
 
-# What is Good Enough to Get Out The Door?
-
 You've heard the mantra. "Give a hundred and ten percent today". It's common on football fields, or in sales meetings. But what exactly does it mean? I think some people take it to literally mean I need to do more than I've ever done today, which is probably the most innocent take on the meaning. Others will take it to mean I want exactly 10% more than you are possibly able of doing. What exactly does 10% of effort mean? It's something that isn't empirical. I can't exactly put effort in a test tube. And not only are we just assigning value to an abstract concept, we're saying that whatever that value is, it needs to be more than what's possible.
 
 I get why people say it, it's to inspire people to do their best, which is often more than what they thought was their best. But inspirational idioms do not make a great product. Let me propose my system of getting things done. I shoot for 80 percent, I'll often settle for 70. Of what, you might ask. Feature value from development. I know I know, I just said that it's annoying to have to hear an empirical value assigned to something intangible, but just like with the above "stick-to-itiveness"-esque saying, it's more of a concept than a measurement. Let's look at an example.

@@ -6,8 +6,6 @@
     }
 </meta>
 
-# Zen and the Art Of Side Projects
-
 How many of you have been here before? You just had a cool idea. You want to build this cool idea. You figured it could be something fun to work on late at night, on saturday mornings. You want to take a breath at the end and go "Ah, look at what I've done. Here's my doo-hickie". Or maybe you just learned a new technology, and you're dying to try it out. You're trying to find an idea that could be good to have this new technology made with. You also want to stand at the end with some accomplishment, and say "well, here's something I did, and I learned a lot while doing this". I think these are the two main reasons for side projects: Wanting to build an idea, or wanting to learn through building.
 
 Building stuff is fun right? You're a developer, a programmer, a web engineer. Your job is to make things. You're a builder. And while building and solving tiny problems is fun for you, having something that you can show off is always appealing. Well, with the two scenarios above in mind, how many of your side projects have ended in incomplete garbage, things that's you've left by the wayside for months, unfinished, never to be touched again. You spent 20 hours setting up a build and everything, but now you're just... done with it. For one reason or another. Sucks doesn't it? Kind of feels like you did a ton of work, and yet at the end feel bad about it. Well, I've been there too. A lot. I'm pretty sure that I have a few Digital Ocean droplets out there right now that are just idly running, with half finished code on them. I have a bunch of domain names I've bought with the intention of this "really being the time I'm going to finish something". And then it doesn't happen. And then I feel like crap.

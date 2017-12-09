@@ -6,8 +6,6 @@
 }
 </meta>
 
-# How to Set Up Sass for Your Workflow
-
 Today I’m going to be teaching you how to set up Sass in your web development workflow. Sass is an incredibly powerful language for preprocessing websites, and I use it in pretty much every project I work on. But while Sass is fairly straightforward and easy to use, setting it up can be a bit of a pain. When I first tried getting Sass into my work flow, I remember I had tons of questions, and wasn’t really sure where to start. I hope in this video I can answer a lot of the questions you have about setting up Sass for your workflow, so that by the end, you’ll have it ready to go for your next project.
 
 ## So What Exactly is Sass?
