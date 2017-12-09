@@ -12,7 +12,7 @@ export default class BlogPost extends React.Component {
         return (
             <div className="container">
                 <div className="row">
-                    <article className="content col-lg-8 offset-lg-2"
+                    <article className="content col-lg-8 col-lg-offset-2 col-xs-12"
                              dangerouslySetInnerHTML={{__html: this.blogPost.content}}>
 
                     </article>
