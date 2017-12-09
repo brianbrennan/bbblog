@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import objectPath from 'object-path';
 
 import blogPosts from './../blog.json';
@@ -21,9 +22,11 @@ export default class BlogHome extends React.Component {
 
         if(shouldDisplayPost) {
             return (
-                <article key={blogPostKey}>
-                    <h3>{blogPost.meta.title}</h3>
-                </article>
+                <Link key={blogPostKey} to={'/' + blogPostKey}>
+                    <article >
+                        <h3>{blogPost.meta.title}</h3>
+                    </article>
+                </Link>
             );
         } else {
             return false;
