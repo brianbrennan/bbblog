@@ -1,5 +1,5 @@
 @import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i;family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,800i');
 
 /*-------------*\
 	Variables
@@ -50,4 +50,48 @@ blockquote {
 	padding-left: 30px;
 	font-size: 30px;
 	font-style: italic;
+}
+
+/*-------------*\
+	Blog Home
+\*-------------*/
+
+.blog-post-snippet {
+	.publish-date {
+		font-family: Georgia, serif;
+		color: $grey;
+		text-transform: none;
+		font-weight: 400;
+		margin-top: 3px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+/*-------------*\
+	Blog Post
+\*-------------*/
+
+.blog-post {
+	.blog-post-publish-date {
+		color: $grey;
+		font-style: italic;
+	}
+}
+
+
+/*---------------*\
+	Tag Styling
+\*---------------*/
+
+.blog-post-tag {
+	background-color: $black;
+	padding: 5px 8px;
+	color: $white;
+	display: inline-block;
+	font-size: $smFontSize;
+	border-radius: 3px;
+	margin-right: 8px;
 }
