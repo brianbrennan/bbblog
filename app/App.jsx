@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import BlogHome from './BlogHome.jsx';
 import BlogPost from './BlogPost.jsx';
@@ -10,10 +10,12 @@ import './styles.scss';
 class App extends React.Component {
     render() {
         return (
-            <Router basename="/">
+            <Router>
                 <div className="app-container">
-                    <Route exact path="/" component={BlogHome} />
-                    <Route path="/:blog_post_title" component={BlogPost}/>
+                    <Switch>
+                        <Route exact path="/" component={BlogHome} />
+                        <Route path="/:blog_post_title" component={BlogPost}/>
+                    </Switch>
                 </div>
             </Router>
         );
