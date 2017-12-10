@@ -38,7 +38,7 @@ export default class BlogHome extends React.Component {
 
         if(shouldDisplayPost) {
             return (
-                    <Link key={blogPostKey} to={'/' + blogPostKey} className="blog-post-snippet">
+                    <Link key={blogPostKey} to={'/' + blogPostKey} className="blog-post-snippet col-lg-12">
                         <article>
                             <h3>{blogPost.meta.title}</h3>
                             <h4 className="publish-date">{moment(blogPost.meta.publishDate).fromNow()}</h4>

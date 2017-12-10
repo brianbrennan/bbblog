@@ -5,30 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brian Brennan | The Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:368px;
+            text-align: center !important}
+        #mc_embed_signup input.email {
+            font-family: Georgia, serif;
+            font-weight: normal;
+        }
+        #mc_embed_signup_scroll {
+            font-family: "Open Sans", sans-serif;
+        }
+        #mc_embed_signup_scroll label {
+            text-align: center;
+        }
+        #mc_embed_signup form {
+            padding: 0;
+        }
+        #mc_embed_signup input.email{
+            margin: 0 auto 15px auto;
+        }
+        #mc-embedded-subscribe.button {
+            font-family: "Open Sans", sans-serif;
+            font-weight: normal;
+            background-color: black;
+            margin: 0 auto 30px auto !important;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
 </head>
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:368px;}
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
 <body>
 <div id="app"></div>
 
-<div id="mc_embed_signup">
-    <form action="https://brianbrennan.us11.list-manage.com/subscribe/post?u=31b85b725d30569f7779004a9&amp;id=b1b27eadb5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-            <label for="mce-EMAIL">Subscribe to our mailing list</label>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31b85b725d30569f7779004a9_b1b27eadb5" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+<div class="container">
+    <div class="row">
+        <div id="mc_embed_signup" class="col-lg-8 offset-lg-2 col-sm-8 offset-lg-2 col-md-12 col-xs-12">
+            <form action="https://brianbrennan.us11.list-manage.com/subscribe/post?u=31b85b725d30569f7779004a9&amp;id=b1b27eadb5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_31b85b725d30569f7779004a9_b1b27eadb5" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
 </div>
 
 <!--End mc_embed_signup-->
-    <script src="./dist/app.min.js"></script>
+<script src="./dist/app.min.js"></script>
 </body>
 </html>

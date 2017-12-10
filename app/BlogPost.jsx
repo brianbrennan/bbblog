@@ -17,7 +17,7 @@ export default class BlogPost extends React.Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="blog-post-content col-lg-8 col-lg-offset-2 col-xs-12">
+                    <div className="blog-post-content col-lg-8 offset-lg-2 col-xs-12">
                         <h1 className="blog-post-title">{this.blogPost.meta.title}</h1>
                         <h4 className="blog-post-publish-date">
                             {moment(this.blogPost.meta.publishDate).format('MM.DD.YYYY')}</h4>
