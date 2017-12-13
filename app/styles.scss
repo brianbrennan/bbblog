@@ -8,6 +8,7 @@ $black: black;
 $white: white;
 $grey: grey;
 $lightGrey: lightgrey;
+$veryLightGrey: #EEE;
 $green: green;
 $lightGreen: lightgreen;
 
@@ -53,9 +54,11 @@ blockquote {
 	font-style: italic;
 }
 
-code {
-	background-color: $lightGreen;
-	color: $green;
+pre {
+	background-color: $veryLightGrey;
+	border: 1px solid $lightGrey;
+	border-radius: 8px;
+	padding: 8px;
 }
 
 /*---------------*\
