@@ -3,6 +3,7 @@ node_js:
 - '6.11'
 script:
   - chmod a+x deploy.sh
+  - chmod a+x compile.sh
   - ./deploy.sh
 env:
   global:
