@@ -1,9 +1,9 @@
 language: node_js
 node_js:
 - '6.11'
-install:
-- npm install
-script: bash ./deploy.sh
+after_success:
+  - chmod a+x deploy.sh
+  - ./deploy.sh
 env:
   global:
   - ENCRYPTION_LABEL: "7ae89a2ad25d"
