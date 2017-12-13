@@ -4,7 +4,7 @@ node_js:
 script:
   - chmod a+x deploy.sh
   - chmod a+x compile.sh
-  - ./deploy.sh
+  - bash ./deploy.sh
 env:
   global:
   - ENCRYPTION_LABEL: "7ae89a2ad25d"
