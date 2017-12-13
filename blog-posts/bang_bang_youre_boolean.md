@@ -6,8 +6,6 @@
 }
 </meta>
 
-# Boolean evalulation in non-strictly typed JavaScript
-
 JavaScript typing is a topic of debate that is currently raging in the world of frameworks. How should things be typed in JS? Should it mimic strongly typed languages? Or should some of the weirdness of JS be embraced and expanded upon with its own syntactic sugar. Well, the jury is still out on that one, but its easy to see for our little runtime-language-that-could has a future involving a much stricter rule-set. But if you don't feel like picking up something like TypeScript or ES6, then there's some cool nuances that are good to have in your back pocket.
 
 ## You're just not my type
