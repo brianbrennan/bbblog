@@ -1,16 +1,10 @@
 language: node_js
-sudo: false
 node_js:
 - '6.11'
 install:
 - npm install
-script:
-- npm run build
-- npm run blog
-deploy:
-  provider: releases
-  api_key:
-    secure: jHQLCGRidfx6kUK9nJIg3B5bMNIVtRisH5K5T+ey4GCbjzrzAuMElCxDaS67/tlSZT5S4HW7gYlHZ2BrgXARj8W58R16cGro/imYduDmqnrvMGACJ47razkdV65EPV5kX3exMlQ3tzQqxCUzxKJzHg0bVM4Mpzooc5SoV1CSgbnikeF01Sgel3Mcyed16PJu6biBsPErm664OFr9oEXH6NptUCgDg6bTFTGXiPg5el3CTOyjiQLWgNDv9MWgVEjIRe90Y+dbvSfSbarf4NjT2eXrOJaLIZPB1/+Q0eU6xjBzJ+ow3D8qy6snrrTPybdD3mdF2o07F2pZTNlVpAiAwWCMpVvE0kVw0Zb/4Rj4L2laFd18mYCfeBjI02L0RzKH5wyqUAZgjPwn7YbgEZWv/5AR1a1WNoCt3wYCm1boZh424D2tuu3gGeCH25LiRob4nrjEywe2zRjyfz30+cxXM1Jd+mS1RUgpe1eKFpYRYApz/+lKP3bAAENT1lhfjHk1u6+UwcDJuPFAFBCfDsb3Q010J0O5b/T+wpU1UiTB0HCzorCfE2hw9bjQkUhKvMP2clE5XnZMz/G8+sKwCn2DhRU0IleyNcmcysmVlLP3+UVKQ1wzusnGN7mBE3uQWwJWaNtfyqxbdg5Yo1hsp19EUYomVOcOJk+F5PTeOxyEa18=
-  file: ./app.min.js
-  on:
-    repo: brianbrennan/bbblog
+script: bash ./deploy.sh
+env:
+  global:
+  - ENCRYPTION_LABEL: "7ae89a2ad25d"
+  - COMMIT_AUTHOR_EMAIL: "me@brianbrennan.com"
