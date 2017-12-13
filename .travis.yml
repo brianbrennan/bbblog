@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - '6.11'
-after_success:
+script:
   - chmod a+x deploy.sh
   - ./deploy.sh
 env:
