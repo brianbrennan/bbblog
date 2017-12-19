@@ -2,7 +2,7 @@
 {
     "title": "Scoping and Handling Promise Chains",
     "tags": ["javascript", "es5", "es6", "web development",  "node"],
-    "publishDate": "2015-12-16T00:00:00-05:00"
+    "publishDate": "2017-12-16T00:00:00-05:00"
 }
 </meta>
 

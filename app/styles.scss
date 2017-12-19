@@ -119,6 +119,29 @@ code {
 	}
 }
 
+.blog-post-like-button {
+	background-color: white;
+	border: 1px solid $black;
+	color: $grey;
+	width: 80px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 8px;
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+	}
+
+	&.hasLiked {
+		border-color: $lightGreen;
+
+		span {
+			color: $lightGreen;
+		}
+	}
+}
+
 
 /*---------------*\
 	Tag Styling
