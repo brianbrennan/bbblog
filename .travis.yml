@@ -2,10 +2,4 @@ language: node_js
 node_js:
 - '6.11'
 script:
-  - chmod a+x deploy.sh
-  - chmod a+x compile.sh
-  - bash ./deploy.sh
-env:
-  global:
-  - ENCRYPTION_LABEL: "7ae89a2ad25d"
-  - COMMIT_AUTHOR_EMAIL: "me@brianbrennan.com"
+  - echo 'tbd'
