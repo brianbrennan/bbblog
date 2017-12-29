@@ -10,6 +10,7 @@ $grey: grey;
 $lightGrey: lightgrey;
 $green: green;
 $lightGreen: lightgreen;
+$red: red;
 
 $smFontSize: 11px;
 $regFontSize: 19px;
@@ -123,21 +124,34 @@ code {
 	background-color: white;
 	border: 1px solid $black;
 	color: $grey;
-	width: 80px;
+	min-width: 65px;
 	border-radius: 4px;
-	text-align: center;
+	text-align: left;
 	margin-top: 8px;
 	cursor: pointer;
+	position: relative;
+	padding-left: 14px;
 
 	&:focus {
 		outline: none;
 	}
 
 	&.hasLiked {
-		border-color: $lightGreen;
+		border-color: $red;
+		color: $red;
 
-		span {
-			color: $lightGreen;
+		path {
+			fill: $red;
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 7px;
+		right: 15px;
+
+		path {
+			fill: $grey;
 		}
 	}
 }
