@@ -65,8 +65,8 @@ export default class LikeButton extends React.Component {
     }
 
     likeBlogPost(e) {
-        firebaseDB.likeBlogPost(this.state.blogPostID);
-        localStorage.setItem(this.state.blogPostID, true);
+        firebaseDB.likeBlogPost(this.props.blogPostID);
+        localStorage.setItem(this.props.blogPostID, true);
         this.setState({
             hasLiked: true
         });
@@ -74,8 +74,8 @@ export default class LikeButton extends React.Component {
     }
 
     unlikeBlogPost() {
-        firebaseDB.unlikeBlogPost(this.state.blogPostID);
-        localStorage.removeItem(this.state.blogPostID);
+        firebaseDB.unlikeBlogPost(this.props.blogPostID);
+        localStorage.removeItem(this.props.blogPostID);
         this.setState({
             hasLiked: false
         });

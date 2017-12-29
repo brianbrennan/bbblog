@@ -1,6 +1,6 @@
 {
   "name": "bbblog",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "My personal blog repository",
   "main": "index.js",
   "scripts": {
